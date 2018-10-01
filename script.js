@@ -1,6 +1,5 @@
 const buttonJS = document.querySelector('.js');
 
-
 buttonJS.addEventListener('click', function() {
 	const divItem = document.createElement('div');
 	// divItem.className = 'box';
@@ -8,4 +7,7 @@ buttonJS.addEventListener('click', function() {
 	document.body.appendChild(divItem);
 })
 
+$('.jq').on('click', function() {
+	$('body').append('<div class="box">')
+})
 
